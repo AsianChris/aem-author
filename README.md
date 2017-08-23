@@ -1,6 +1,6 @@
 # aem-author
 
-This Docker image installs [Adobe Experience Manager 6.0](http://docs.adobe.com/docs/en/aem/6-0.html), and allows it
+This Docker image installs [Adobe Experience Manager 6.x](http://docs.adobe.com/docs/en/aem/6-2.html), and allows it
 to be run within a Docker container.
 
 ## About docker-aem-author
@@ -9,7 +9,7 @@ to be run within a Docker container.
 
 You must copy your AEM installation media into the base directory before
 running this image. The image expects the following files within the base directory:
-* cq-author-4502.jar
+* aem-author-4502.jar
 * license.properties
 
 ## Usage
